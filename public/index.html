@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whisper Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>welcome to Whisper!<h1>
+    <div id="chat-container">
+        <div id="user-form">
+            <input type="text" id="username" placeholder="Enter your name"/>
+            <button onclick="setupUser()">Set Username</button>
+        </div>
+        <div id="room-form" style="display: none;">
+            <input type="text" id="room-name" placeholder="Room name"/>
+            <input type="password" id="room-password" placeholder="Room password"/>
+            <button onclick="joinRoom()">Join Room</button>
+            <button onclick="createRoom()">Create Room</button>
+        </div>
+        <div id="chat-room" style="display: none;">
+            <div id="messages"></div>
+            <input type="text" id="message-input" placeholder="Type a message"/>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

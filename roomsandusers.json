@@ -1,0 +1,101 @@
+{
+  "rooms": {
+    "hello world! 코딩": {
+      "password": "gkdlgkdl",
+      "users": [
+        "hi",
+        "c",
+        "zzz"
+      ]
+    },
+    "b": {
+      "password": "b",
+      "users": [
+        "qwertyuiopasdfghjklzxcvbnm",
+        "windrod",
+        "김도영",
+        "ㅡ",
+        "kdy010010"
+      ]
+    },
+    "z": {
+      "password": "z",
+      "users": [
+        "z"
+      ]
+    },
+    "j5": {
+      "password": "f",
+      "users": [
+        "김대하"
+      ]
+    }
+  },
+  "messages": {
+    "b": [
+      {
+        "username": "f",
+        "message": "g",
+        "timestamp": "2024-03-04T11:11:01.277Z"
+      },
+      {
+        "username": "qwertyuiopasdfghjklzxcvbnm",
+        "message": "b",
+        "timestamp": "2024-03-04T11:15:41.723Z"
+      },
+      {
+        "username": "김도영",
+        "message": "안녕",
+        "timestamp": "2024-03-10T03:45:22.460Z"
+      },
+      {
+        "username": "김도영",
+        "message": "김지아 천재 ㅋ ㅋ ㅋ ㅋ ㅋ ㅋ ㅋ ㅋ ㅋ ㅋ  ㅋ",
+        "timestamp": "2024-03-10T03:45:31.000Z"
+      }
+    ],
+    "hello world! 코딩": [
+      {
+        "username": "hi",
+        "message": "안녕",
+        "timestamp": "2024-03-04T11:12:01.851Z"
+      },
+      {
+        "username": "c",
+        "message": "b",
+        "timestamp": "2024-03-04T11:12:31.868Z"
+      },
+      {
+        "username": "zzz",
+        "message": "?????????????????????????????????????????????????????????????????????????????????????????????????????",
+        "timestamp": "2024-03-04T11:14:53.895Z"
+      },
+      {
+        "username": "c",
+        "message": "아 뭠춰",
+        "timestamp": "2024-03-04T11:15:05.851Z"
+      }
+    ],
+    "z": [
+      {
+        "username": "z",
+        "message": "hi",
+        "timestamp": "2024-03-04T11:17:18.778Z"
+      }
+    ],
+    "코딩": [
+      {
+        "username": "kdy010010",
+        "message": "hi",
+        "timestamp": "2024-04-07T07:28:45.852Z"
+      }
+    ],
+    "j5": [
+      {
+        "username": "김대하",
+        "message": "hi",
+        "timestamp": "2024-04-07T07:29:09.104Z"
+      }
+    ]
+  }
+}
